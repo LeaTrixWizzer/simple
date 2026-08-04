@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Roboto;
+  src:
+    url(./Roboto-Regular.eot) format("eot"),
+    url(./Roboto-Regular.ttf) format("truetype"),
+    url(./Roboto-Regular.otf) format("opentype"),
+    url(./Roboto-Regular.woff) format("woff"),
+    url(./Roboto-Regular.woff2) format("woff2");
+
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url(./Roboto-Medium.eot) format("eot"),
+    url(./Roboto-Medium.ttf) format("truetype"),
+    url(./Roboto-Medium.otf) format("opentype"),
+    url(./Roboto-Medium.woff) format("woff"),
+    url(./Roboto-Medium.woff2) format("woff2");
+
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src:
+    url(./Ubuntu-Light.eot) format("eot"),
+    url(./Ubuntu-Light.ttf) format("truetype"),
+    url(./Ubuntu-Light.otf) format("opentype"),
+    url(./Ubuntu-Light.woff) format("woff"),
+    url(./Ubuntu-Light.woff2) format("woff2");
+
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
