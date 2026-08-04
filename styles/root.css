@@ -1,1 +1,48 @@
-:root {}
+:root {
+  /* ФОН ЭЛЕМЕНТА */
+
+  --background-color-theme-dark: rgb(235, 235, 235);
+  --background-color-theme-light: rgb(255, 255, 255);
+  --background-color-button-hover: rgb(120, 117, 254);
+  --background-color-button-focus: rgb(218, 217, 254);
+  --background-color-button-active: rgb(73, 70, 180);
+
+  /* ШРИФТ-СЕМЕЙСТВО */
+
+  --font-family-page: Roboto, sans-serif;
+  --font-family-button: Roboto, sans-serif;
+
+  /* ШРИФТ-ТОЛЩИНА */
+
+  --font-weight-page: 400;
+  --font-weight-button: 400;
+
+  /* ШРИФТ-РАЗМЕР */
+
+  --font-size-page: 20px;
+  --font-size-page-mobile: 18px;
+  --font-size-button: 20px;
+  --font-size-button-mobile: 18px;
+
+  /* ШРИФТ-ВЫСОТА */
+
+  --font-height-page: 100%;
+  --font-height-button: 100%;
+
+  /* ШРИФТ-МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
+
+  --letter-spacing-page: 0;
+  --letter-spacing-button: 0;
+
+  /* ШРИФТ-ЦВЕТ */
+
+  --font-color-page: rgb(133, 133, 155);
+  --font-color-button: rgb(120, 117, 254);
+  --font-color-button-hover: rgb(255, 255, 255);
+  --font-color-button-focus: rgb(120, 117, 254);
+  --font-color-button-active: rgb(255, 255, 255);
+
+  /* РАМКА ЭЛЕМЕНТА */
+
+  --border-button: 1px solid rgb(120, 117, 254);
+}

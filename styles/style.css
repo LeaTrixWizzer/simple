@@ -1,47 +1,295 @@
-.page {}
+.page {
+  width: 1440px;
+  height: max-content;
+  font-family: var(--font-family-page);
+  font-weight: var(--font-weight-page);
+  font-size: var(--font-size-page);
+  line-height: var(--font-height-page);
+  letter-spacing: var(--letter-spacing-page);
+  color: var(--font-color-page);
+  display: flex;
+  flex-direction: column;
+}
 
 /* ПАТТЕРНЫ */
 
+.content__theme-dark {
+  background-color: var(--background-color-theme-dark);
+}
+
+.content__theme-light {
+  background-color: var(--background-color-theme-light);
+}
+
+.button {
+  outline: none;
+  border: var(--border-button);
+  width: 255px;
+  height: 70px;
+  background-color: transparent;
+  font-family: var(--font-family-button);
+  font-weight: var(--font-weight-button);
+  font-size: var(--font-size-button);
+  line-height: var(--font-height-button);
+  letter-spacing: var(--letter-spacing-button);
+  color: var(--font-color-button);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--background-color-button-hover);
+  color: var(--font-color-button-hover);
+}
+
+.button:focus {
+  background-color: var(--background-color-button-focus);
+  color: var(--font-color-button-focus);
+}
+
+.button:active {
+  background-color: var(--background-color-button-active);
+  color: var(--font-color-button-active);
+}
+
 /* ШАПКА САЙТА */
 
-.header {}
+.header {
+  position: relative;
+  padding: 0 165px;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 /* ОСНОВНАЯ ЧАСТЬ САЙТА */
 
-.main {}
+.main {
+  display: flex;
+  flex-direction: column;
+}
 
 /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
 
-.cover {}
+.cover {
+  padding: 130px 0 129px 165px;
+  width: 100%;
+  height: max-content;
+}
 
 /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
 
-.result {}
+.result {
+  padding: 90px 165px;
+  width: 100%;
+  height: max-content;
+}
 
 /* СЕКЦИЯ С КАТАЛОГОМ */
 
-.catalog {}
+.catalog {
+  padding: 90px 165px;
+  width: 100%;
+  height: max-content;
+}
 
 /* СЕКЦИЯ С ПАРТНЕРАМИ */
 
-.partners {}
+.partners {
+  padding: 90px 165px;
+  width: 100%;
+  height: max-content;
+}
 
 /* СЕКЦИЯ СО СКЕТЧБУКОМ */
 
-.sketchbook {}
+.sketchbook {
+  padding: 114px 0 114px 165px;
+  width: 100%;
+  height: max-content;
+}
 
 /* ПОДВАЛ САЙТА */
 
-.footer {}
+.footer {
+  padding: 0 165px 0 162px;
+  width: 100%;
+  height: max-content;
+}
 
-/* АДАПТАЦИЯ САЙТА НА ПЛАНШЕТ ШИРИНОЙ 690PX */
+/* АДАПТАЦИЯ САЙТА НА ПЛАНШЕТ ШИРИНОЙ 768PX */
 
-@media(width < 1440px) {}
+@media (width < 1440px) {
+  .page {
+    width: 768px;
+  }
 
-/* АДАПТАЦИЯ САЙТА НА ПЛАНШЕТ ШИРИНОЙ 510PX */
+  /* ШАПКА САЙТА */
 
-@media(width < 690px) {}
+  .header {
+    padding: 0 35px 0 39px;
+    flex-direction: column;
+  }
+
+  /* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+  /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
+
+  .cover {
+    padding: 65px 0 65px 39px;
+  }
+
+  /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
+
+  .result {
+    padding: 60px 39px;
+  }
+
+  /* СЕКЦИЯ С КАТАЛОГОМ */
+
+  .catalog {
+    padding: 60px 39px;
+  }
+
+  /* СЕКЦИЯ С ПАРТНЕРАМИ */
+
+  .partners {
+    padding: 60px 39px;
+  }
+
+  /* СЕКЦИЯ СО СКЕТЧБУКОМ */
+
+  .sketchbook {
+    padding: 60px 399px 60px 39px;
+  }
+
+  /* ПОДВАЛ САЙТА */
+
+  .footer {
+    padding: 0 39px;
+  }
+}
+
+/* АДАПТАЦИЯ САЙТА НА ПЛАНШЕТ ШИРИНОЙ 576PX */
+
+@media (width < 690px) {
+  .page {
+    width: 576px;
+  }
+
+  /* ПАТТЕРНЫ */
+
+  .button {
+    width: 196px;
+    height: 60px;
+  }
+
+  /* ШАПКА САЙТА */
+
+  .header {
+    padding: 0 33px;
+    flex-direction: column;
+  }
+
+  /* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+  /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
+
+  .cover {
+    padding: 60px 0 60px 32px;
+  }
+
+  /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
+
+  .result {
+    padding: 60px 33px;
+  }
+
+  /* СЕКЦИЯ С КАТАЛОГОМ */
+
+  .catalog {
+    padding: 60px 33px 60px 29px;
+  }
+
+  /* СЕКЦИЯ С ПАРТНЕРАМИ */
+
+  .partners {
+    padding: 60px 33px;
+  }
+
+  /* СЕКЦИЯ СО СКЕТЧБУКОМ */
+
+  .sketchbook {
+    padding: 60px 33px;
+  }
+
+  /* ПОДВАЛ САЙТА */
+
+  .footer {
+    padding: 0 33px;
+  }
+}
 
 /* АДАПТАЦИЯ САЙТА НА ТЕЛЕФОН ШИРИНОЙ 320PX */
 
-@media(width < 510px) {}
+@media (width < 510px) {
+  .page {
+    width: 320px;
+    font-size: var(--font-size-page-mobile);
+  }
+
+  /* ПАТТЕРНЫ */
+
+  .button {
+    width: 144px;
+    height: 50px;
+    font-size: var(--font-size-button-mobile);
+  }
+
+  /* ШАПКА САЙТА */
+
+  .header {
+    padding: 0 15px;
+    flex-direction: column;
+  }
+
+  /* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+  /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
+
+  .cover {
+    padding: 49px 0;
+    align-items: center;
+  }
+
+  /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
+
+  .result {
+    padding: 60px 15px;
+  }
+
+  /* СЕКЦИЯ С КАТАЛОГОМ */
+
+  .catalog {
+    padding: 60px 15px;
+  }
+
+  /* СЕКЦИЯ С ПАРТНЕРАМИ */
+
+  .partners {
+    padding: 60px 0 60px 15px;
+  }
+
+  /* СЕКЦИЯ СО СКЕТЧБУКОМ */
+
+  .sketchbook {
+    padding: 60px 15px;
+  }
+
+  /* ПОДВАЛ САЙТА */
+
+  .footer {
+    padding: 0 67px;
+  }
+}
