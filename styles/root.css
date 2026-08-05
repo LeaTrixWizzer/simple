@@ -36,6 +36,9 @@
   --font-family-form-input: Roboto, sans-serif;
   --font-family-form-input-placeholder: Roboto, sans-serif;
 
+  --font-family-cover-title: Roboto, sans-serif;
+  --font-family-cover-text: Roboto, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -45,6 +48,9 @@
   --font-weight-header-nav-item: 400;
   --font-weight-form-input: 400;
   --font-weight-form-input-placeholder: 400;
+
+  --font-weight-cover-title: 400;
+  --font-weight-cover-text: 400;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -59,6 +65,14 @@
   --font-size-form-input: 20px;
   --font-size-form-input-placeholder: 20px;
 
+  --font-size-cover-title: 60px;
+  --font-size-cover-title-big-tablet: 50px;
+  --font-size-cover-title-small-tablet: 38px;
+  --font-size-cover-title-small-mobile: 30px;
+  --font-size-cover-text: 18px;
+  --font-size-cover-text-small-tablet: 16px;
+  --font-size-cover-text-small-mobile: 14px;
+
   /* ШРИФТ-ВЫСОТА */
 
   --font-height-page: 100%;
@@ -68,6 +82,9 @@
   --font-height-header-nav-item: 100%;
   --font-height-form-input: 100%;
   --font-height-form-input-placeholder: 100%;
+
+  --font-height-cover-title: 100%;
+  --font-height-cover-text: 150%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -84,6 +101,9 @@
   --font-color-header-nav-item-active: rgb(73, 70, 180);
   --font-color-form-input: rgb(76, 88, 102);
   --font-color-form-input-placeholder: rgb(209, 209, 229);
+
+  --font-color-cover-title: rgb(76, 88, 102);
+  --font-color-cover-text: rgb(133, 133, 155);
 
   /* РАМКА ЭЛЕМЕНТА */
 

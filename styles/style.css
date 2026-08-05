@@ -316,9 +316,39 @@ input[type="search"]::-ms-reveal {
 /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
 
 .cover {
-  padding: 130px 0 129px 165px;
+  position: relative;
+  padding: 130px 830px 129px 165px;
   width: 100%;
   height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.cover-title {
+  font-family: var(--font-family-cover-title);
+  font-weight: var(--font-weight-cover-title);
+  font-size: var(--font-size-cover-title);
+  line-height: var(--font-height-cover-title);
+  color: var(--font-color-cover-title);
+}
+
+.cover-text {
+  font-family: var(--font-family-cover-text);
+  font-weight: var(--font-weight-cover-text);
+  font-size: var(--font-size-cover-text);
+  line-height: var(--font-height-cover-text);
+  color: var(--font-color-cover-text);
+}
+
+.cover-image {
+  position: absolute;
+  top: 60px;
+  left: 720px;
+  width: max-content;
+  height: 1336px;
+  object-fit: cover;
 }
 
 /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
@@ -416,7 +446,17 @@ input[type="search"]::-ms-reveal {
   /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
 
   .cover {
-    padding: 65px 0 65px 39px;
+    padding: 65px 339px 65px 39px;
+  }
+
+  .cover-title {
+    font-size: var(--font-size-cover-title-big-tablet);
+  }
+
+  .cover-image {
+    top: 60px;
+    left: 450px;
+    height: 668px;
   }
 
   /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
@@ -512,7 +552,22 @@ input[type="search"]::-ms-reveal {
   /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
 
   .cover {
-    padding: 60px 0 60px 32px;
+    padding: 60px 257px 60px 32px;
+    gap: 20px;
+  }
+
+  .cover-title {
+    font-size: var(--font-size-cover-title-small-tablet);
+  }
+
+  .cover-text {
+    font-size: var(--font-size-cover-text-small-tablet);
+  }
+
+  .cover-image {
+    top: 20px;
+    left: 340px;
+    height: 500px;
   }
 
   /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
@@ -644,8 +699,21 @@ input[type="search"]::-ms-reveal {
   /* СЕКЦИЯ С ОПИСАНИЕМ САЙТА */
 
   .cover {
-    padding: 49px 0;
-    align-items: center;
+    padding: 49px 16px 49px 15px;
+    gap: 0;
+  }
+
+  .cover-title {
+    font-size: var(--font-size-cover-title-small-mobile);
+  }
+
+  .cover-text {
+    margin: 15px 0 21px;
+    font-size: var(--font-size-cover-text-small-mobile);
+  }
+
+  .cover-image {
+    display: none;
   }
 
   /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
