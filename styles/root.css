@@ -7,15 +7,44 @@
   --background-color-button-focus: rgb(218, 217, 254);
   --background-color-button-active: rgb(73, 70, 180);
 
+  --background-color-header-line: rgb(221, 221, 221);
+  --background-color-header-nav-mobile: rgb(235, 235, 235);
+  --background-color-header-nav-item-focus: rgb(218, 217, 251);
+  --background-color-link-button-focus: rgb(218, 217, 251);
+
+  --stroke-color-link-button: rgb(76, 88, 102);
+  --stroke-color-link-button-hover: rgb(120, 117, 254);
+  --stroke-color-link-button-focus: rgb(120, 117, 254);
+  --stroke-color-link-button-active: rgb(73, 70, 180);
+  --stroke-color-search-button-close: rgb(76, 88, 102);
+  --stroke-color-search-button-close-hover: rgb(255, 255, 255);
+  --stroke-color-search-button-close-focus: rgb(76, 88, 102);
+  --stroke-color-search-button-close-active: rgb(255, 255, 255);
+
+  --fill-color-search-button-close: rgb(209, 209, 229);
+  --fill-color-search-button-close-hover: rgb(122, 117, 254);
+  --fill-color-search-button-close-focus: rgb(218, 217, 251);
+  --fill-color-search-button-close-active: rgb(73, 77, 180);
+
   /* ШРИФТ-СЕМЕЙСТВО */
 
   --font-family-page: Roboto, sans-serif;
   --font-family-button: Roboto, sans-serif;
 
+  --font-family-header-logo: Ubuntu, sans-serif;
+  --font-family-header-nav-item: Roboto, sans-serif;
+  --font-family-form-input: Roboto, sans-serif;
+  --font-family-form-input-placeholder: Roboto, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
   --font-weight-button: 400;
+
+  --font-weight-header-logo: 300;
+  --font-weight-header-nav-item: 400;
+  --font-weight-form-input: 400;
+  --font-weight-form-input-placeholder: 400;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -24,15 +53,21 @@
   --font-size-button: 20px;
   --font-size-button-mobile: 18px;
 
+  --font-size-header-logo: 20px;
+  --font-size-header-nav-item: 20px;
+  --font-size-header-nav-item-mobile: 18px;
+  --font-size-form-input: 20px;
+  --font-size-form-input-placeholder: 20px;
+
   /* ШРИФТ-ВЫСОТА */
 
   --font-height-page: 100%;
   --font-height-button: 100%;
 
-  /* ШРИФТ-МЕЖСТРОЧНЫЙ ИНТЕРВАЛ */
-
-  --letter-spacing-page: 0;
-  --letter-spacing-button: 0;
+  --font-height-header-logo: 100%;
+  --font-height-header-nav-item: 100%;
+  --font-height-form-input: 100%;
+  --font-height-form-input-placeholder: 100%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -42,7 +77,20 @@
   --font-color-button-focus: rgb(120, 117, 254);
   --font-color-button-active: rgb(255, 255, 255);
 
+  --font-color-header-logo: rgb(51, 51, 51);
+  --font-color-header-nav-item: rgb(76, 88, 102);
+  --font-color-header-nav-item-hover: rgb(120, 117, 254);
+  --font-color-header-nav-item-focus: rgb(76, 88, 102);
+  --font-color-header-nav-item-active: rgb(73, 70, 180);
+  --font-color-form-input: rgb(76, 88, 102);
+  --font-color-form-input-placeholder: rgb(209, 209, 229);
+
   /* РАМКА ЭЛЕМЕНТА */
 
   --border-button: 1px solid rgb(120, 117, 254);
+
+  --border-header: 1px solid rgb(221, 221, 221);
+  --border-circle: 1px solid rgb(51, 51, 51);
+  --border-ellipse: 1px solid rgb(51, 51, 51);
+  --border-link-form: 1px solid rgb(209, 209, 229);
 }

@@ -11,20 +11,191 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body class="page">
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__logo">
+        <div id="circle"></div>
+
+        <span>simple</span>
+
+        <div id="ellipse"></div>
+
+        <div id="circle"></div>
+      </div>
+
+      <div class="header-line"></div>
+
+      <nav class="header__menu">
+        <button class="header__menu-button header__menu-open">
+          <svg
+            width="21"
+            height="17"
+            viewBox="0 0 21 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 15.9375C0 15.6889 0.0987722 15.4504 0.274588 15.2746C0.450403 15.0988 0.68886 15 0.9375 15H19.6875C19.9361 15 20.1746 15.0988 20.3504 15.2746C20.5262 15.4504 20.625 15.6889 20.625 15.9375C20.625 16.1861 20.5262 16.4246 20.3504 16.6004C20.1746 16.7762 19.9361 16.875 19.6875 16.875H0.9375C0.68886 16.875 0.450403 16.7762 0.274588 16.6004C0.0987722 16.4246 0 16.1861 0 15.9375ZM0 8.4375C0 8.18886 0.0987722 7.9504 0.274588 7.77459C0.450403 7.59877 0.68886 7.5 0.9375 7.5H19.6875C19.9361 7.5 20.1746 7.59877 20.3504 7.77459C20.5262 7.9504 20.625 8.18886 20.625 8.4375C20.625 8.68614 20.5262 8.9246 20.3504 9.10041C20.1746 9.27623 19.9361 9.375 19.6875 9.375H0.9375C0.68886 9.375 0.450403 9.27623 0.274588 9.10041C0.0987722 8.9246 0 8.68614 0 8.4375ZM0 0.9375C0 0.68886 0.0987722 0.450403 0.274588 0.274588C0.450403 0.0987722 0.68886 0 0.9375 0H19.6875C19.9361 0 20.1746 0.0987722 20.3504 0.274588C20.5262 0.450403 20.625 0.68886 20.625 0.9375C20.625 1.18614 20.5262 1.4246 20.3504 1.60041C20.1746 1.77623 19.9361 1.875 19.6875 1.875H0.9375C0.68886 1.875 0.450403 1.77623 0.274588 1.60041C0.0987722 1.4246 0 1.18614 0 0.9375Z"
+              fill="#4C5866"
+            />
+          </svg>
+        </button>
+
+        <button class="header__menu-button header__menu-close">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.310548 0.310546C0.50946 0.111634 0.779243 -0.000113509 1.06055 -0.000113456C1.34185 -0.000113435 1.61163 0.111634 1.81055 0.310546L16.8105 15.3105C17.0094 15.5094 17.1212 15.7792 17.1212 16.0605C17.1212 16.3418 17.0094 16.6116 16.8105 16.8105C16.6116 17.0094 16.3418 17.1212 16.0605 17.1212C15.7792 17.1212 15.5094 17.0094 15.3105 16.8105L0.310548 1.81054C0.111636 1.61163 -0.000111635 1.34185 -0.000111635 1.06055C-0.000111645 0.779241 0.111636 0.509458 0.310548 0.310546Z"
+              fill="#4C5866"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M16.8105 0.310548C17.0095 0.50946 17.1212 0.779243 17.1212 1.06055C17.1212 1.34185 17.0095 1.61163 16.8105 1.81055L1.81056 16.8105C1.61165 17.0094 1.34187 17.1212 1.06056 17.1212C0.779257 17.1212 0.509476 17.0094 0.310564 16.8105C0.111652 16.6116 -9.68482e-05 16.3418 -9.71617e-05 16.0605C-9.74751e-05 15.7792 0.111652 15.5094 0.310563 15.3105L15.3105 0.310548C15.5095 0.111636 15.7792 -0.000111785 16.0605 -0.000111761C16.3419 -0.000111748 16.6116 0.111636 16.8105 0.310548Z"
+              fill="#4C5866"
+            />
+          </svg>
+        </button>
+
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Продукция</a>
+          </li>
+
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Материалы</a>
+          </li>
+
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">О нас</a>
+          </li>
+
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+
+        <ul class="header__link">
+          <li class="header__link-item">
+            <button id="search-button" class="link-button">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 19C8.58175 19 5.00003 15.4183 5.00003 11C5.00003 6.58172 8.58175 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M2.99998 20.9999L7.34998 16.6499"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+
+            <form class="link-form" action="#" method="POST">
+              <input
+                class="form-input"
+                name="search"
+                type="search"
+                placeholder="Найти"
+              />
+
+              <button type="button" class="search-button-close">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="search-button-close-icon"
+                >
+                  <circle cx="8" cy="8" r="8" />
+                  <path
+                    d="M5.99961 10.35L10.3496 6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10.35 10.35L6 6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </form>
+          </li>
+
+          <li class="header__link-item">
+            <button class="link-button">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_497)">
+                  <path
+                    d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10 17L15 12L10 7"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 12H3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_497">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main">
-        <section class="cover content__theme-light"></section>
+      <section class="cover content__theme-light"></section>
 
-        <section class="result content__theme-dark"></section>
+      <section class="result content__theme-dark"></section>
 
-        <section class="catalog content__theme-light"></section>
+      <section class="catalog content__theme-light"></section>
 
-        <section class="partners content__theme-dark"></section>
+      <section class="partners content__theme-dark"></section>
 
-        <section class="sketchbook content__theme-light"></section>
+      <section class="sketchbook content__theme-light"></section>
     </main>
 
     <footer class="footer"></footer>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
