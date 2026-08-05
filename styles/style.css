@@ -354,9 +354,96 @@ input[type="search"]::-ms-reveal {
 /* СЕКЦИЯ С РЕЗУЛЬТАТАМИ */
 
 .result {
-  padding: 90px 165px;
+  padding: 90px 150px;
   width: 100%;
   height: max-content;
+}
+
+.result__list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.result__list-item {
+  list-style-type: none;
+  border-top: var(--border-result-list-item);
+  padding-top: 20px;
+  width: 400px;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.result__list-image {
+  width: 175px;
+  height: 132px;
+}
+
+.result__container {
+  padding: 18px 0 19px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result__container-title {
+  font-family: var(--font-family-result-list-title);
+  font-weight: var(--font-weight-result-list-title);
+  font-size: var(--font-size-result-list-title);
+  line-height: var(--font-height-result-list-title);
+  color: var(--font-color-result-list-title);
+}
+
+.result__container-text {
+  font-family: var(--font-family-result-list-text);
+  font-weight: var(--font-weight-result-list-text);
+  font-size: var(--font-size-result-list-text);
+  line-height: var(--font-height-result-list-text);
+  color: var(--font-color-result-list-text);
+}
+
+.result__content {
+  margin-top: 74px;
+  margin-left: 17px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.result__content-image {
+  width: 753px;
+  height: 574px;
+}
+
+.result__content-container {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result__content-title {
+  font-family: var(--font-family-result-title);
+  font-weight: var(--font-weight-result-title);
+  font-size: var(--font-size-result-title);
+  line-height: var(--font-height-result-title);
+  color: var(--font-color-result-title);
+}
+
+.result__content-text {
+  max-width: 332px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.result__content-text span {
+  font-family: var(--font-family-result-text);
+  font-weight: var(--font-weight-result-text);
+  font-size: var(--font-size-result-text);
+  line-height: var(--font-height-result-text);
+  color: var(--font-color-result-text);
 }
 
 /* СЕКЦИЯ С КАТАЛОГОМ */
@@ -463,6 +550,41 @@ input[type="search"]::-ms-reveal {
 
   .result {
     padding: 60px 39px;
+  }
+
+  .result__list-item {
+    width: 210px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .result__container {
+    margin-top: -12px;
+    padding: 0;
+  }
+
+  .result__content {
+    margin-top: 40px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .result__content-image {
+    width: 330px;
+    height: 256px;
+  }
+
+  .result__content-container {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .result__content-title {
+    font-size: var(--font-size-result-title-big-tablet);
   }
 
   /* СЕКЦИЯ С КАТАЛОГОМ */
@@ -574,6 +696,62 @@ input[type="search"]::-ms-reveal {
 
   .result {
     padding: 60px 33px;
+  }
+
+  .result__list-item {
+    padding-top: 19px;
+    width: 150px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .result__list-image {
+    width: 150px;
+    height: 111px;
+  }
+
+  .result__container {
+    margin-top: 3px;
+    padding: 0;
+  }
+
+  .result__container-title {
+    font-size: var(--font-size-result-list-title-small-tablet);
+  }
+
+  .result__container-text {
+    font-size: var(--font-size-result-list-text-small-tablet);
+  }
+
+  .result__content {
+    margin-top: 40px;
+    margin-left: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .result__content-image {
+    width: 330px;
+    height: 255px;
+  }
+
+  .result__content-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .result__content-title {
+    font-size: var(--font-size-result-title-small-tablet);
+  }
+
+  .result__content-text {
+    max-width: 510px;
+  }
+
+  .result__content-text span {
+    font-size: var(--font-size-result-text-small-tablet);
   }
 
   /* СЕКЦИЯ С КАТАЛОГОМ */
@@ -720,6 +898,67 @@ input[type="search"]::-ms-reveal {
 
   .result {
     padding: 60px 15px;
+  }
+
+  .result__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .result__list-item {
+    width: 290px;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .result__list-image {
+    width: 130px;
+    height: 96px;
+  }
+
+  .result__container {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .result__container-title {
+    font-size: var(--font-size-result-list-title-mobile);
+  }
+
+  .result__container-text {
+    font-size: var(--font-size-result-list-text-mobile);
+  }
+
+  .result__content {
+    margin-top: 60px;
+    margin-left: 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .result__content-image {
+    width: 290px;
+    height: 223px;
+  }
+
+  .result__content-container {
+    margin-top: 0;
+    gap: 14px;
+  }
+
+  .result__content-title {
+    font-size: var(--font-size-result-title-mobile);
+  }
+
+  .result__content-text {
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .result__content-text span {
+    font-size: var(--font-size-result-text-mobile);
   }
 
   /* СЕКЦИЯ С КАТАЛОГОМ */

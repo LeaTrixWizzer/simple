@@ -39,6 +39,11 @@
   --font-family-cover-title: Roboto, sans-serif;
   --font-family-cover-text: Roboto, sans-serif;
 
+  --font-family-result-list-title: Roboto, sans-serif;
+  --font-family-result-list-text: Roboto, sans-serif;
+  --font-family-result-title: Roboto, sans-serif;
+  --font-family-result-text: Roboto, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -51,6 +56,11 @@
 
   --font-weight-cover-title: 400;
   --font-weight-cover-text: 400;
+
+  --font-weight-result-list-title: 500;
+  --font-weight-result-list-text: 400;
+  --font-weight-result-title: 400;
+  --font-weight-result-text: 400;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -73,6 +83,20 @@
   --font-size-cover-text-small-tablet: 16px;
   --font-size-cover-text-small-mobile: 14px;
 
+  --font-size-result-list-title: 18px;
+  --font-size-result-list-text: 18px;
+  --font-size-result-list-title-small-tablet: 16px;
+  --font-size-result-list-text-small-tablet: 16px;
+  --font-size-result-list-title-mobile: 16px;
+  --font-size-result-list-text-mobile: 16px;
+  --font-size-result-title: 40px;
+  --font-size-result-title-big-tablet: 30px;
+  --font-size-result-text: 18px;
+  --font-size-result-title-small-tablet: 24px;
+  --font-size-result-text-small-tablet: 16px;
+  --font-size-result-title-mobile: 24px;
+  --font-size-result-text-mobile: 16px;
+
   /* ШРИФТ-ВЫСОТА */
 
   --font-height-page: 100%;
@@ -85,6 +109,11 @@
 
   --font-height-cover-title: 100%;
   --font-height-cover-text: 150%;
+
+  --font-height-result-list-title: 150%;
+  --font-height-result-list-text: 150%;
+  --font-height-result-title: 100%;
+  --font-height-result-text: 170%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -105,6 +134,11 @@
   --font-color-cover-title: rgb(76, 88, 102);
   --font-color-cover-text: rgb(133, 133, 155);
 
+  --font-color-result-list-title: rgb(102, 102, 102);
+  --font-color-result-list-text: rgb(133, 133, 155);
+  --font-color-result-title: rgb(102, 102, 102);
+  --font-color-result-text: rgb(133, 133, 155);
+
   /* РАМКА ЭЛЕМЕНТА */
 
   --border-button: 1px solid rgb(120, 117, 254);
@@ -113,4 +147,6 @@
   --border-circle: 1px solid rgb(51, 51, 51);
   --border-ellipse: 1px solid rgb(51, 51, 51);
   --border-link-form: 1px solid rgb(209, 209, 229);
+
+  --border-result-list-item: 1px solid rgb(192, 192, 192);
 }
