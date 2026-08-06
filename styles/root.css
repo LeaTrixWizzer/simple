@@ -15,6 +15,10 @@
   --background-color-card-photo: rgb(235, 235, 235);
   --background-color-card-button-focus: rgb(218, 217, 251);
 
+  --background-color-footer: rgb(76, 88, 102);
+  --background-color-footer-line: rgb(221, 221, 221);
+  --background-color-footer-link: rgb(120, 117, 254);
+
   --stroke-color-link-button: rgb(76, 88, 102);
   --stroke-color-link-button-hover: rgb(120, 117, 254);
   --stroke-color-link-button-focus: rgb(120, 117, 254);
@@ -32,6 +36,10 @@
   --fill-color-card-button-hover: rgb(73, 70, 180);
   --fill-color-card-button-focus: rgb(120, 117, 254);
   --fill-color-card-button-active: rgb(73, 70, 180);
+  --fill-color-footer-icon: rgb(255, 255, 255);
+  --fill-color-footer-icon-hover: rgb(218, 217, 251);
+  --fill-color-footer-icon-focus: rgb(255, 255, 255);
+  --fill-color-footer-icon-active: rgb(120, 117, 254);
 
   /* ШРИФТ-СЕМЕЙСТВО */
 
@@ -59,6 +67,9 @@
   --font-family-sketchbook-title: Roboto, sans-serif;
   --font-family-sketchbook-text: Roboto, sans-serif;
 
+  --font-family-footer-logo: Ubuntu, sans-serif;
+  --font-family-footer-signature: Roboto, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -84,6 +95,9 @@
 
   --font-weight-sketchbook-title: 400;
   --font-weight-sketchbook-text: 400;
+
+  --font-weight-footer-logo: 300;
+  --font-weight-footer-signature: 400;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -135,6 +149,9 @@
   --font-size-sketchbook-text: 18px;
   --font-size-sketchbook-text-small-table: 16px;
 
+  --font-size-footer-logo: 20px;
+  --font-size-footer-signature: 13px;
+
   /* ШРИФТ-ВЫСОТА */
 
   --font-height-page: 100%;
@@ -160,6 +177,9 @@
 
   --font-height-sketchbook-title: 100%;
   --font-height-sketchbook-text: 170%;
+
+  --font-height-footer-logo: 100%;
+  --font-height-footer-signature: 100%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -196,6 +216,9 @@
   --font-color-sketchbook-title: rgb(102, 102, 102);
   --font-color-sketchbook-text: rgb(133, 133, 155);
 
+  --font-color-footer-logo: rgb(255, 255, 255);
+  --font-color-footer-signature: rgb(76, 88, 102);
+
   /* РАМКА ЭЛЕМЕНТА */
 
   --border-button: 1px solid rgb(120, 117, 254);
@@ -208,4 +231,7 @@
   --border-result-list-item: 1px solid rgb(192, 192, 192);
 
   --border-partners-list-item: 1px solid rgb(196, 196, 196);
+
+  --border-footer-circle: 1px solid rgb(255, 255, 255);
+  --border-footer-ellipse: 1px solid rgb(255, 255, 255);
 }
