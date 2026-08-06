@@ -28,7 +28,7 @@
 
 - [Репозиторий проекта](https://github.com/LeaTrixWizzer/simple.git)
 - [Макет проекта](https://www.figma.com/design/sJwabNIQ83JF9XIGfYCOl4/Simple?t=JMpUuZXGjg3v3aLM-0)
-- [Публикация проекта]()
+- [Публикация проекта](https://leatrixwizzer.github.io/simple/)
 
 ## Источники
 
