@@ -56,6 +56,9 @@
   --font-family-card-text: Roboto, sans-serif;
   --font-family-card-button: Roboto, sans-serif;
 
+  --font-family-sketchbook-title: Roboto, sans-serif;
+  --font-family-sketchbook-text: Roboto, sans-serif;
+
   /* ШРИФТ-ТОЛЩИНА */
 
   --font-weight-page: 400;
@@ -78,6 +81,9 @@
   --font-weight-card-subtitle: 400;
   --font-weight-card-text: 400;
   --font-weight-card-button: 400;
+
+  --font-weight-sketchbook-title: 400;
+  --font-weight-sketchbook-text: 400;
 
   /* ШРИФТ-РАЗМЕР */
 
@@ -123,6 +129,12 @@
   --font-size-card-text-mobile: 16px;
   --font-size-card-button: 20px;
 
+  --font-size-sketchbook-title: 40px;
+  --font-size-sketchbook-title-big-table: 30px;
+  --font-size-sketchbook-title-small-table: 24px;
+  --font-size-sketchbook-text: 18px;
+  --font-size-sketchbook-text-small-table: 16px;
+
   /* ШРИФТ-ВЫСОТА */
 
   --font-height-page: 100%;
@@ -145,6 +157,9 @@
   --font-height-card-subtitle: 100%;
   --font-height-card-text: 170%;
   --font-height-card-button: 100%;
+
+  --font-height-sketchbook-title: 100%;
+  --font-height-sketchbook-text: 170%;
 
   /* ШРИФТ-ЦВЕТ */
 
@@ -177,6 +192,9 @@
   --font-color-card-button-hover: rgb(73, 70, 180);
   --font-color-card-button-focus: rgb(120, 117, 254);
   --font-color-card-button-active: rgb(73, 70, 180);
+
+  --font-color-sketchbook-title: rgb(102, 102, 102);
+  --font-color-sketchbook-text: rgb(133, 133, 155);
 
   /* РАМКА ЭЛЕМЕНТА */
 

@@ -670,9 +670,63 @@ input[type="search"]::-ms-reveal {
 /* СЕКЦИЯ СО СКЕТЧБУКОМ */
 
 .sketchbook {
+  position: relative;
   padding: 114px 0 114px 165px;
   width: 100%;
   height: max-content;
+  overflow: hidden;
+}
+
+.sketchbook__content {
+  max-width: 350px;
+}
+
+.sketchbook__content-title {
+  font-family: var(--font-family-sketchbook-title);
+  font-weight: var(--font-weight-sketchbook-title);
+  font-size: var(--font-size-sketchbook-title);
+  line-height: var(--font-height-sketchbook-title);
+  color: var(--font-color-sketchbook-title);
+}
+
+.sketchbook__content-text {
+  margin: 8px 0 30px;
+  font-family: var(--font-family-sketchbook-text);
+  font-weight: var(--font-weight-sketchbook-text);
+  font-size: var(--font-size-sketchbook-text);
+  line-height: var(--font-height-sketchbook-text);
+  color: var(--font-color-sketchbook-text);
+}
+
+#book {
+  position: absolute;
+  z-index: 0;
+  top: 90px;
+  left: 512px;
+  width: 800px;
+  height: 600px;
+}
+
+.sketchbook-image {
+  position: absolute;
+  z-index: 1;
+  top: 138px;
+  left: 874px;
+  width: 371px;
+  height: 392px;
+  background-image: url(../images/picture.png);
+  background-position: -40px -60px;
+  background-size: 240%;
+  background-repeat: no-repeat;
+}
+
+#signature {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  width: 67px;
+  height: 26px;
+  display: block;
 }
 
 /* ПОДВАЛ САЙТА */
@@ -876,6 +930,37 @@ input[type="search"]::-ms-reveal {
 
   .sketchbook {
     padding: 60px 399px 60px 39px;
+  }
+
+  .sketchbook__content {
+    max-width: 330px;
+  }
+
+  .sketchbook__content-title {
+    font-size: var(--font-size-sketchbook-title-big-table);
+  }
+
+  .sketchbook__content-text {
+    margin: 20px 0 30px;
+  }
+
+  #book {
+    top: 60px;
+    left: 374px;
+    width: 495px;
+    height: 367px;
+  }
+
+  .sketchbook-image {
+    top: 90px;
+    left: 600px;
+    width: 228px;
+    height: 233px;
+    background-position: -20px -30px;
+  }
+
+  #signature {
+    display: none;
   }
 
   /* ПОДВАЛ САЙТА */
@@ -1139,6 +1224,50 @@ input[type="search"]::-ms-reveal {
 
   .sketchbook {
     padding: 60px 33px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sketchbook__content {
+    margin-top: -6px;
+    max-width: 500px;
+  }
+
+  .sketchbook__content-title {
+    font-size: var(--font-size-sketchbook-title-small-table);
+  }
+
+  .sketchbook__content-text {
+    margin: 20px 0 30px;
+    font-size: var(--font-size-sketchbook-text-small-table);
+  }
+
+  #book {
+    position: relative;
+    top: 0;
+    left: 5px;
+    width: 495px;
+    height: 360px;
+  }
+
+  .sketchbook-image {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    left: 265px;
+    width: 225px;
+    height: 230px;
+    background-position: -19px -40px;
+    background-size: 240%;
+  }
+
+  #signature {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    width: 41px;
+    height: 16px;
+    display: block;
   }
 
   /* ПОДВАЛ САЙТА */
@@ -1470,6 +1599,47 @@ input[type="search"]::-ms-reveal {
 
   .sketchbook {
     padding: 60px 15px;
+  }
+
+  .sketchbook__content {
+    margin-top: -6px;
+    max-width: 289px;
+  }
+
+  .sketchbook__content-title {
+    font-size: var(--font-size-sketchbook-title-small-table);
+  }
+
+  .sketchbook__content-text {
+    margin: 20px 0 30px;
+    font-size: var(--font-size-sketchbook-text-small-table);
+  }
+
+  #book {
+    position: relative;
+    top: 0;
+    left: -12px;
+    width: 312px;
+    height: 230px;
+  }
+
+  .sketchbook-image {
+    position: absolute;
+    z-index: 1;
+    top: 79px;
+    left: 145px;
+    width: 143px;
+    height: 147px;
+    background-position: -12px -20px;
+  }
+
+  #signature {
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    width: 27px;
+    height: 10px;
+    display: block;
   }
 
   /* ПОДВАЛ САЙТА */
