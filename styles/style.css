@@ -631,6 +631,42 @@ input[type="search"]::-ms-reveal {
   height: max-content;
 }
 
+.partners__list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.partners__list-item {
+  border: var(--border-partners-list-item);
+  width: 255px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hahnemuehle {
+  margin-top: -5px;
+  width: 197px;
+  height: 55px;
+}
+
+#canson {
+  width: 186px;
+  height: 53px;
+}
+
+#royal-talens {
+  width: 225px;
+  height: 21px;
+}
+
+#fabriano {
+  width: 209px;
+  height: 26px;
+}
+
 /* СЕКЦИЯ СО СКЕТЧБУКОМ */
 
 .sketchbook {
@@ -809,6 +845,31 @@ input[type="search"]::-ms-reveal {
 
   .partners {
     padding: 60px 39px;
+  }
+
+  .partners__list-item {
+    width: 150px;
+    height: 80px;
+  }
+
+  #hahnemuehle {
+    width: 116px;
+    height: 33px;
+  }
+
+  #canson {
+    width: 109px;
+    height: 31px;
+  }
+
+  #royal-talens {
+    width: 132px;
+    height: 12px;
+  }
+
+  #fabriano {
+    width: 123px;
+    height: 15px;
   }
 
   /* СЕКЦИЯ СО СКЕТЧБУКОМ */
@@ -1040,6 +1101,38 @@ input[type="search"]::-ms-reveal {
 
   .partners {
     padding: 60px 33px;
+  }
+
+  .partners__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .partners__list-item {
+    width: 240px;
+    height: 127px;
+  }
+
+  #hahnemuehle {
+    margin-top: -10px;
+    width: 185px;
+    height: 52px;
+  }
+
+  #canson {
+    width: 175px;
+    height: 50px;
+  }
+
+  #royal-talens {
+    width: 212px;
+    height: 20px;
+  }
+
+  #fabriano {
+    width: 197px;
+    height: 25px;
   }
 
   /* СЕКЦИЯ СО СКЕТЧБУКОМ */
@@ -1337,7 +1430,40 @@ input[type="search"]::-ms-reveal {
   /* СЕКЦИЯ С ПАРТНЕРАМИ */
 
   .partners {
-    padding: 60px 0 60px 15px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partners__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners__list-item {
+    width: 150px;
+    height: 80px;
+  }
+
+  #hahnemuehle {
+    margin-top: -5px;
+    width: 116px;
+    height: 33px;
+  }
+
+  #canson {
+    width: 109px;
+    height: 31px;
+  }
+
+  #royal-talens {
+    width: 132px;
+    height: 12px;
+  }
+
+  #fabriano {
+    width: 123px;
+    height: 15px;
   }
 
   /* СЕКЦИЯ СО СКЕТЧБУКОМ */
